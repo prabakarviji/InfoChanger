@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Info</title>
+	
+</head>
+<style type="text/css">
+  body{
+  	margin:0;
+  	background: white;
+  	font-family:Arial;
+  }
+	.info-fury-mainPop{
+		float: left;
+		width: 200px;
+		margin: 2% 0%;
+	}
+	.info-fury-opt-header{
+		float: left;
+    width: 95%;
+    padding: %;
+    color: #E54040;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 9px;
+    font-size: 17px;
+
+	}
+	.info-fury-option{
+    width: 83%;
+    padding: 5%;
+    cursor: pointer;
+    color: white;
+    font-size: 13px;
+    background-color: white;
+    border-left:4px solid #E54040;
+    margin: 2% auto;
+    background-color: #393C3E;
+	}
+	.info-fury-option:hover{
+		background-color: #E54040;
+		color:white;
+		border-left:4px solid #393C3E;
+    font-weight: bold;
+	}
+</style>
+<body>
+  <div class="info-fury-mainPop">
+		<div class="info-fury-opt-header">Info Changer</div>
+	</div>
+	<div class="info-fury-mainPop" id="info-fury-mainPop">
+		<div class="info-fury-option" id="text-change" >Modify Text</div>
+		<div class="info-fury-option" id="text-hide" >Blur Text</div>
+		<div class="info-fury-option" id="text-highlight" >Highlight Text</div>
+		<div class="info-fury-option" id="take-screenshot" >Capture Screen</div>
+	</div>
+	<script type="text/javascript" src="js/popup.js"></script>
+</body>
+</html>

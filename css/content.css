@@ -1,0 +1,87 @@
+#info-fury-chrome{
+		
+    display: block;
+    position: fixed;
+    width: 700px;
+    top: 0;
+    left: 50%;
+    margin-left: -350px;
+    height: 65px;
+    z-index: 2147483647;
+    text-align: left;
+    border: 1px solid #999;
+    background-color: #393C3E
+}
+
+.info-fury-innerPanel{
+	float: left;
+	width: 100%;
+}
+
+#info-fury-textInput{
+	width: 87%;
+    border-color: white;
+    border-width: 1px;
+    margin: 1.5%;
+    height: 40px;
+    border-radius: 6px;
+    float:left;
+    font-size:14px;
+    padding-left: 2%;
+    color: black;
+}
+
+.info-fury-border-chrome{
+	border: 1px dotted #E54040 ! important;
+    border-radius: 6px ! important;
+}
+
+.info-fury-closeButton{
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+.info-fury-blur-text{
+    color: transparent !important;
+    text-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px !important;
+}
+
+.info-fury-hightlight{
+    background-color: #54EA93 !important;
+}
+
+.info-fury-popModal{
+    position: fixed; 
+    z-index: 1000 !important; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+
+.info-fury-innerModal{
+    background-color: #fefefe;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 90%;
+}
+
+.info-fury-shotContainer{
+    width:100%;
+    height: 500px;
+}
+
+.canvas-preview{
+    width: 100% !important;
+    height: 100% !important;
+    border: 4px solid #ccc;
+    overflow: hidden;
+    border-radius: 3px;
+}
