@@ -19,3 +19,7 @@ Chrome extension to modify and change text information in a web page
 
 4. Capture Screen  	
 	- Capture visbile part of the browser window
+	
+Screenshot
+
+![alt tag](https://raw.githubusercontent.com/prabakarviji/InfoChanger/master/Infochanger.gif)
