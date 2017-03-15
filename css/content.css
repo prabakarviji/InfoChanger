@@ -10,7 +10,8 @@
     z-index: 2147483647;
     text-align: left;
     border: 1px solid #999;
-    background-color: #393C3E
+    background-color: #393C3E;
+    border-radius: 6px;
 }
 
 .info-fury-innerPanel{
@@ -40,7 +41,7 @@
     width: 25px;
     height: 25px;
     float: left;
-    margin-top: 16px;
+    margin-top: 3%;
     cursor: pointer;
 }
 

@@ -86,12 +86,13 @@ var InfoContentFury = {
 
 		var okButtton =  this.renderHTMLElem("img","info-fury-okButton","info-fury-closeButton");
 		okButtton.src = okImage;
+		okButtton.style.marginLeft ="-1%";
 		okButtton.addEventListener("click",self.correctTextData)
 		innerPanel.appendChild(okButtton);
 
 		var closeButtton =  this.renderHTMLElem("img","info-fury-closeButton","info-fury-closeButton");;
 		closeButtton.src = closeImage;
-		closeButtton.style.marginLeft ="10px";
+		closeButtton.style.marginLeft ="1%";
 		closeButtton.addEventListener("click",self.hideTopPanel)
 		innerPanel.appendChild(closeButtton)
 	},
